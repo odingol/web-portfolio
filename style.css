@@ -23,6 +23,7 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .section-break {
@@ -44,16 +45,45 @@
     padding-top: 45px;
 }
 
+.contact-break {
+    background-image: url("./images/section-contact-page.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    height:250px;
+    padding:45px;
+    color:white;
+}
+
+#contact h2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 45px;
+}
+
 
 
 /* My Work Section  */
  .work-section {
     background-size:cover;
-    margin-top: 100px;
+    margin: 50px;
    
 }
 
 
+.caption {
+    background-color: white;
+    color:black;
+    opacity: 80%;
+    height:20%;
+}
+
+h5 {
+    color:rgb(7, 7, 167);
+}
 
 
 
@@ -93,48 +123,6 @@ footer a {
 }
 
 /* About Me section */
-
-.about {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 6%;
-  padding: 5%;
-  background-color: rgba(236, 216, 177, 0.432);
-}
-
-.style-about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 25%;
-  margin-left: 10%;
-  margin-top: 5%;
-  border: 8px solid white;
-  padding: 3%;
-  background-color: rgba(211, 224, 228, 0.952);
-  color: black;
-  border-radius: 120px;
-  position: relative;
-}
-
-.style-about-me {
-  margin-bottom: 5%;
-  font-size: 200%;
-  display: flex;
-  flex-direction: row;
-  line-height: 2%;
-  padding: 2%;
-}
-
-.format-content {
-  line-height: 180%;
-  text-align: center;
-}
-
-/* Adjusts my profile image width and height on page */
 
 
 
