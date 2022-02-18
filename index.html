@@ -5,38 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,200&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
     <title>Lamor | Porfolio</title>
 </head>
 
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+    <header class="nav-fixed w-100" id="home">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark container-fluid">
             <div class="container-fluid">
-                <h2 class="navbar-brand col">Lamor Odingo</h2>
+                <h1 class="navbar-brand col header-name">Lamor Odingo</h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
 
-            <div class="collapse navbar-collapse col-lg-3" id="mainNavBar">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse form-inline" id="mainNavBar">
+                <ul class="navbar-nav mr-auto nav-bar p-3">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-me">About Me</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#my-work"> Projects</a>
+                        <a class="nav-link" href="#projects"> Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -44,18 +49,21 @@
     </header>
 
     <main>
-        <div class="parallax-container background1">
-            <div class="parralax overflow-hidden">
-                <img src="./images/portfolio-background.jpg" class="img-fluid" alt="Responsive image">
+        <div>
+            <div class="overflow-hidden">
+                <img src="./images/portfolio-background-image.jpg" class="img-fluid" alt="Responsive image">
             </div>
         </div>
 
-        <section class='about'>
-            <img class='style-image' src='./Images/Porfolio-Profile-Photo.jpg'>
-            <div class='style-about'>
-                <h3 class='style-about-me'>Hello,</h3>
-                <div class='format-content'>
-                    <p>my name is Lamor Odingo and this is my portfolio web application! I am 22 years old and my
+
+        <section class="section container scrollspy" id="about">
+            <div class="row p-5 w-100">
+                <div class="col-md-6">
+                    <img src='./Images/Porfolio-Profile-Photo.jpg' class="rounded float-left col" alt="...">
+                </div>
+                <div class="col-md-5 format-bio p-4">
+                    <h2 class="p-4">About Me</h2>
+                    <p> my name is Lamor Odingo and this is my portfolio web application! I am 22 years old and my
                         hobbies include quiet nature walks or visiting trendy food spots in Seattle, WA! Currently I am
                         a student at the UW Coding Bootcamp and below you will see a series of projects I did throughout
                         the program. Feel free to browse through each one to see the skills I acquired within the 6
@@ -63,8 +71,8 @@
                 </div>
             </div>
         </section>
-
-        <section id='my-work' class='section-header'>
+      
+        <section id='work' class="section-break">
             <h2>My Work</h2>
         </section>
 
@@ -147,6 +155,32 @@
                 </form>
             </div>
         </section>
+
+        <div>
+            <ul class="fixed-action-btn">
+                <li><a href="https://github.com/Jose-lco" class="tooltipped btn-floating btn-small indigo darken-4"
+                        data-position="left" data-tooltip="Github">
+                        <i class="fab fa-github"></i>
+                    </a></li>
+                <br>
+                <li><a href="https://docs.google.com/document/d/18a6sfZ5-k8jwANxUgAKtNqTjXCHngOLwkSHQgYE8pdM/edit?usp=sharing"
+                        class="tooltipped btn-floating btn-small indigo darken-4" data-position="left"
+                        data-tooltip="Resume PDF">
+                        <i class="fas fa-file-pdf"></i>
+                    </a></li>
+                <br>
+                <li><a href="https://www.linkedin.com/in/josephine-ndungu-a0a441160/"
+                        class="tooltipped btn-floating btn-small indigo darken-4" data-position="left"
+                        data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a></li>
+                <br>
+                <li><a href="mailto:ndungu642@gmail.com" class="tooltipped btn-floating btn-small indigo darken-4"
+                        data-position="left" data-tooltip="Email">
+                        <i class="fa fa-envelope"></i>
+                    </a></li>
+            </ul>
+        </div>
     </main>
 
     </main>
@@ -157,9 +191,8 @@
         <a href="https://www.linkedin.com/in/lamor-odingo/" target='_blank'>LinkedIn</a>
         <a href="https://github.com/odingol" target='_blank'>Github</a>
     </footer>
-
-
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -167,6 +200,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
