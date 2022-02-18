@@ -19,7 +19,7 @@
 
 
 <body>
-    <header class="nav-fixed w-100" id="home">
+    <header class="nav-fixed w-100 p-0" id="home">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark container-fluid">
             <div class="container-fluid">
                 <h1 class="navbar-brand col header-name">Lamor Odingo</h1>
@@ -59,7 +59,7 @@
         <section class="section container scrollspy" id="about">
             <div class="row p-5 w-100">
                 <div class="col-md-6">
-                    <img src='./Images/Porfolio-Profile-Photo.jpg' class="rounded float-left col" alt="...">
+                    <img src='./Images/Porfolio-Profile-Photo.jpg' class="rounded float-left col style-image" alt="...">
                 </div>
                 <div class="col-md-5 format-bio p-4">
                     <h2 class="p-4">About Me</h2>
@@ -71,88 +71,53 @@
                 </div>
             </div>
         </section>
-      
-        <section id='work' class="section-break">
+
+        <section id='work' class="row">
+            <div class="section-break col">
             <h2>My Work</h2>
+        </div>
         </section>
 
-        <section class='work'>
-            <section class='priority-card-column'>
-                <div class='priority-style-project'>
-                    <a href='https://www.freecodecamp.org/' target='_blank'>
-                        <img class='project-image-priority' src='./Images/Project-Screenshot.jpeg'>
-                    </a>
-                </div>
-                <div class='style-project-caption-priority' class='style-project-caption'>
-                    <h3>Project #1</h3>
-                </div>
-            </section>
-            <section class='card-column'>
-                <div class='style-project'>
-                    <a href='https://www.freecodecamp.org/' target='_blank'>
-                        <img class='project-image' src='./Images/Project-Screenshot.jpeg'>
-                    </a>
-                </div>
-                <div class='style-project-caption'>
-                    <h3>Project #2</h3>
-                </div>
-            </section>
-            <section class='card-column'>
-                <div class='style-project'>
-                    <a href='https://www.freecodecamp.org/' target='_blank'>
-                        <img class='project-image' src='./Images/Project-Screenshot.jpeg'>
-                    </a>
-                </div>
-                <div class='style-project-caption'>
-                    <h3>Project #3</h3>
-                </div>
-            </section>
-            <section class='card-column'>
-                <div class='style-project'>
-                    <a href='https://www.freecodecamp.org/' target='_blank'>
-                        <img class='project-image' src='./Images/Project-Screenshot.jpeg'>
-                    </a>
-                </div>
-                <div class='style-project-caption'>
-                    <h3>Project #4</h3>
-                </div>
-            </section>
-            <section class='card-column'>
-                <div class='style-project'>
-                    <a href='https://www.freecodecamp.org/' target='_blank'>
-                        <img class='project-image' src='./Images/Project-Screenshot.jpeg'>
-                    </a>
-                </div>
-                <div class='style-project-caption'>
-                    <h3>Project #5</h3>
-                </div>
-            </section>
-        </section>
-
-        <section id='contact-me' class='section-header'>
-            <h2>Contact Me</h2>
-        </section>
-
-        <section class='contact'>
-            <div class='style-contact'>
-                <form>
-                    <!-- Use display block to make the position of the contact info vertical -->
-                    <label for='Name'>Name:</label>
-
-                    <input type='text' placeholder="john jones" id='name' required /> <br>
-
-                    <label for='E-mail'>E-mail:</label>
-
-                    <input type='text' placeholder="johnjones@hotmail.com" id='email' required /><br>
-
-                    <label for='Phone-number'>Phone:</label>
-
-                    <input type='text' placeholder='(555) 555-555' id='phone-number' required /><br><br>
-
-                    <div class='center-submit'>
-                        <button class='style-button'>Submit</button><br><br>
+        <section class='row format-projects'>
+            <div class="col-lg-6 align-items-lg-center work-section">
+                <div id="carouselExampleCaptions" class="carousel slide work-section w-100" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/project-1-img.jpg" class="d-block w-100 h-25" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/project-2-img.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="..." class=" d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
                     </div>
-                </form>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
         </section>
 
