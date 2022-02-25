@@ -14,6 +14,8 @@ body {
   --hover: rgb(250, 250, 158);
 }
 
+/* Nav Bar */
+
 .header-name {
   font-family: "Exo", sans-serif;
   font-size: 200%;
@@ -25,12 +27,11 @@ body {
 }
 
 
+/* About Me Section */
 
 #about {
     padding:60px;
 }
-
-
 
 .format-bio {
     display:flex;
@@ -82,7 +83,6 @@ body {
 
 /* My Work Section  */
 
-
 .carousel-caption {
     background-color: white;
     color:black;
@@ -133,7 +133,7 @@ h5 {
     margin: 0 3px;
 }
 
-/* positioning of icons within the list element */
+/* Positioning of listed icons */
 
 ul li a i.github {
   position: relative;
@@ -159,7 +159,6 @@ ul li a i.email {
   top:3px;
 }
 
-
 .icon-color {
   color:white;
   width:7px;
@@ -167,18 +166,11 @@ ul li a i.email {
 
 }
 
-
-#about-me {
-  margin-top: 0%;
-}
-
-
 /* Section TItle */
 
 .title-color {
   color: rgb(8, 8, 138);
 }
-
 
 /* Footer Section */
 
