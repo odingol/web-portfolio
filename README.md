@@ -33,7 +33,7 @@ The app is deployed on Github pages. [HERE](https://odingol.github.io/web-portfo
 * On the bottom right are icon links to my Github, Resume, LinkedIn, and business E-mail.
     
 ## License 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
     
     
 The license included for this project is under ISC
