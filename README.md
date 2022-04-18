@@ -23,7 +23,7 @@ SO THAT employers can review my skills and consider having me as a candidate for
 The app is deployed on Github pages. [HERE](https://odingol.github.io/web-portfolio/) is a link to access it
  ## Usage
 
-![Portfolio Features](./images/portfolio-usage.gif)
+![Portfolio Features](./assets/images/portfolio-usage.gif)
 
 <br>
 <br>
