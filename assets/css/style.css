@@ -42,7 +42,7 @@ body {
 }
 
 .section-break {
-    background-image: url("./images/section-break-img.jpg");
+    background-image: url("../images/section-break-img.jpg");
     background-size:cover;
     background-attachment: fixed;
     height:250px;
@@ -61,7 +61,7 @@ body {
 }
 
 .contact-break {
-    background-image: url("./images/section-contact-page.jpg");
+    background-image: url("../images/section-contact-page.jpg");
     background-size:cover;
     background-attachment: fixed;
     height:250px;
